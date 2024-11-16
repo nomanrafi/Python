@@ -1,4 +1,4 @@
 # Python
 Basics of Python.
 String
-Built
+Built in function
