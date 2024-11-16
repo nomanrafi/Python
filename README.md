@@ -11,3 +11,4 @@ if else
 array
 operators
 indexing
+count
