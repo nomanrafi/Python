@@ -9,3 +9,4 @@ Dictionary
 Loop
 if else
 array
+operators
