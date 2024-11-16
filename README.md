@@ -5,3 +5,4 @@ Built in function
 Data Types
 List
 Set
+Dictionary
