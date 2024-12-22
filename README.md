@@ -4,4 +4,3 @@ some
 programm
 like
 python
-which
