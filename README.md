@@ -1,2 +1,2 @@
-vvv# Python
+vv# Python
 Basics of Python.
