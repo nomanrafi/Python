@@ -10,3 +10,6 @@ num = num // 10
 
 b = num % 5
 num = num // 10
+c = num % 5
+
+d = num // 10
