@@ -4,3 +4,6 @@
 user_input = int(input("Enter the four digit number: "))
 
 num = user_input
+
+a = num % 5
+num = num // 10
