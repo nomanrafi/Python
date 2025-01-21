@@ -15,4 +15,5 @@ c = num % 5
 d = num // 10
 reverse = 1000*a + 100*b + 10*c + d
 print("original number: ", user_input)
+
 print("reverse number: ", reverse)
