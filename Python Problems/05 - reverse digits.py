@@ -7,3 +7,6 @@ num = user_input
 
 a = num % 5
 num = num // 10
+
+b = num % 5
+num = num // 10
