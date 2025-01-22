@@ -6,3 +6,6 @@ sp = float(input("Enter your selling price: "))
 if cp > sp:
     amount = cp - sp
     print("Loss:", amount)
+else:
+    amount = sp - cp
+    print("Profit:", amount)
