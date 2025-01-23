@@ -5,3 +5,8 @@ r = int(input("Enter rate of interest: "))
 t = int(input("Enter time period in years: "))
 
 si = (p * r * t) / 100
+
+print("Your Simple Interest is: ", si)
+
+a = p + si
+print("Your Amount is: ", a)
