@@ -5,3 +5,9 @@ r = float(input("Enter your radius: "))
 h = float(input("Enter your height: "))
 
 v = 3.14 * (r ** 2) * h
+
+print("Your Volume is:", v)
+
+cost = v / 1000 * 40
+
+print("Your cost is: Rs", cost)
