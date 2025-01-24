@@ -15,3 +15,8 @@ elif user_input > 1000000 and user_input < 2000000:
 else:
     tax = (30/100) * user_input
     temp_salary = user_input - tax
+print('After salary reduction:', temp_salary)
+
+hra = (10/100) * temp_salary
+da = (5/100) * temp_salary
+pf = (3/100) * temp_salary
