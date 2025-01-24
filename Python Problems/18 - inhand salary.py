@@ -20,3 +20,5 @@ print('After salary reduction:', temp_salary)
 hra = (10/100) * temp_salary
 da = (5/100) * temp_salary
 pf = (3/100) * temp_salary
+inhand_salary = (temp_salary - hra - da - pf) / 12
+print('Inhand salary is:', inhand_salary)
