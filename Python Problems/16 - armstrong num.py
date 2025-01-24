@@ -9,3 +9,5 @@ b = num % 10
 
 if (a**3) + (b**3) + (c**3) == user_input:
     print("Armstrong number")
+else:
+    print("Not an Armstrong number")
