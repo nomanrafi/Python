@@ -22,3 +22,7 @@ da = (5/100) * temp_salary
 pf = (3/100) * temp_salary
 inhand_salary = (temp_salary - hra - da - pf) / 12
 print('Inhand salary is:', inhand_salary)
+if inhand_salary <= 999:
+    print(inhand_salary)
+elif inhand_salary >= 1000 and inhand_salary <= 9999:
+    print(inhand_salary / 1000, 'k')
