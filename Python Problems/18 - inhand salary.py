@@ -26,3 +26,7 @@ if inhand_salary <= 999:
     print(inhand_salary)
 elif inhand_salary >= 1000 and inhand_salary <= 9999:
     print(inhand_salary / 1000, 'k')
+elif inhand_salary >= 100000 and inhand_salary <= 9999999:
+    print(inhand_salary / 1000000, 'l')
+else:
+    print(inhand_salary / 10000000, 'Cr')
