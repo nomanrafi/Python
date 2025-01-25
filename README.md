@@ -1,2 +1,2 @@
-uihvv# Python
+ihvv# Python
 Basics of Python.
