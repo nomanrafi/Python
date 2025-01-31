@@ -6,3 +6,5 @@ a = a + b
 b = a - b
 a = a - b
 print("After swapping:")
+print("Your 'a' is: ", a)
+print("Your 'b' is: ", b)
