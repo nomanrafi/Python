@@ -20,3 +20,7 @@ if user_input == '1':
     km = float(input('Enter value in km: '))
     miles = km * 0.621
     print('Your value in miles is:', miles)
+    elif user_input == '3':
+    usd = float(input('Enter value in usd: '))
+    inr = usd * 76.63
+    print('Your value in inr is:', inr)
