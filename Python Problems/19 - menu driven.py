@@ -12,3 +12,7 @@ What would you like to do?
 2. Convert km to miles
 3. Convert usd to inr
 4. Exit''')
+if user_input == '1':
+    cm = float(input('Enter value in cm: '))
+    inch = cm * 0.394
+    print('Your value in inches is:', inch)
