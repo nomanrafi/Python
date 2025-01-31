@@ -16,3 +16,7 @@ if user_input == '1':
     cm = float(input('Enter value in cm: '))
     inch = cm * 0.394
     print('Your value in inches is:', inch)
+    elif user_input == '2':
+    km = float(input('Enter value in km: '))
+    miles = km * 0.621
+    print('Your value in miles is:', miles)
