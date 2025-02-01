@@ -2,3 +2,7 @@
 # For example, if the user provides n = 10, the output should be 55.
 
 n = int(input("Enter your number: "))
+
+s = n * (n + 1) / 2
+
+print("Your sum is: ", s)
