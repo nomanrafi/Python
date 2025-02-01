@@ -3,3 +3,8 @@
 flag = 0
 
 i = 1
+while True:
+    if i % 2 != 0:
+        print(i)
+        flag = flag + 1
+        
