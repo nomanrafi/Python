@@ -8,3 +8,4 @@ while a % b != 0:
     a = b
     b = rem
     
+print('Your HCF is:', b)
