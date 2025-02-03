@@ -9,3 +9,5 @@
 
 flag = 0
 a = 10000
+
+print(a)
