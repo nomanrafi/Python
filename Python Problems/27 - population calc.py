@@ -6,3 +6,6 @@
 # 10th year - 10,000
 # 9th year - 9,000
 # 8th year - 8,100, and so on.
+
+flag = 0
+a = 10000
