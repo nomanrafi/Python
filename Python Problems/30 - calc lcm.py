@@ -8,4 +8,7 @@ while num_1 % num_2 != 0:
     rem = num_1 % num_2
     num_1 = num_2
     num_2 = rem
-    
+hcf = num_2
+lcm = (a * b) / hcf
+
+print('Your LCM is:', lcm)
