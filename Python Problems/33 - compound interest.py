@@ -6,3 +6,6 @@ t = int(input('Enter the time period elapsed: '))
 
 a = p * (1 + r / 100)**t
 print('Your amount is:', a)
+
+ci = a - p
+print('Your compound interest is:', ci)
