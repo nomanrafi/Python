@@ -39,3 +39,9 @@ for i in range(1, row + 1):
     for k in range(i - 1, 0, -1):
         print(k, end=' ')
     print(' ')
+
+# 1
+# 23
+# 456
+
+row = int(input('Enter row value: '))
