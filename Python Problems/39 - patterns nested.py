@@ -27,4 +27,9 @@ for k in range(row, 0, -1):
     for l in range(0, k - 1):
         print('*', end=' ')
     print('')
-    
+# 1
+# 121
+# 12321
+# 1234321
+
+row = int(input('Enter number of rows: '))
