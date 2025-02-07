@@ -8,3 +8,5 @@ num = int(input('Enter your number: '))
 
 result = 0
 fact = 1
+for i in range(1, num + 1):
+    
