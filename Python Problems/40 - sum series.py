@@ -5,3 +5,6 @@
 # The value of n will be provided by the user.
 
 num = int(input('Enter your number: '))
+
+result = 0
+fact = 1
