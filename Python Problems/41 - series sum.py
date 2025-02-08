@@ -23,3 +23,7 @@ x = int(input('Enter your number: '))
 n = 7
 
 sum = ((x - 1) / x)
+
+for i in range(2, n + 1):
+    sum = sum + (1 / 2 * ((x - 1) / x)**i)
+    
