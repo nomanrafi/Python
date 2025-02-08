@@ -17,3 +17,6 @@ while True:
         print('Thank you')
         break
 
+print('Your sum is:', add)
+print('Your average is:', avg)
+
