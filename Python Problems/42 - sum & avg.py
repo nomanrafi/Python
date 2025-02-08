@@ -6,3 +6,10 @@ num = int(input('Enter your number: '))
 add = 0
 avg = 0
 count = 0
+
+while True:
+    if num != 0:
+        add = add + num
+        count = count + 1
+        avg = add / count
+        num = int(input('Another number please: '))
