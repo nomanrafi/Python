@@ -10,4 +10,10 @@ while num_1 % num_2 != 0:
     rem = num_1 % num_2
     num_1 = num_2
     num_2 = rem
-    
+
+hcf = num_2
+
+a = a/hcf
+b = b/hcf
+
+print(a/b)
