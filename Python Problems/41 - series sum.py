@@ -20,3 +20,6 @@ print(sum)
 # If x is input through the keyboard, write a program to calculate the sum of the first seven terms of this series.
 
 x = int(input('Enter your number: '))
+n = 7
+
+sum = ((x - 1) / x)
