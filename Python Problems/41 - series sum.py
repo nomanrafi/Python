@@ -6,3 +6,9 @@
 
 x = int(input('Enter your number: '))
 n = int(input('Enter nth value: '))
+
+sum = 1
+
+for i in range(2, n + 1):
+    sum = sum + ((x**i)/i)
+    
