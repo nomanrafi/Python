@@ -13,3 +13,7 @@ while True:
         count = count + 1
         avg = add / count
         num = int(input('Another number please: '))
+    else:
+        print('Thank you')
+        break
+
