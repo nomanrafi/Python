@@ -18,3 +18,5 @@ print(sum)
 # (x-1)/x + 1/2 * ((x-1)/x)^2 + 1/2 * ((x-1)/x)^3 + ... + 1/2 * ((x-1)/x)^7
 
 # If x is input through the keyboard, write a program to calculate the sum of the first seven terms of this series.
+
+x = int(input('Enter your number: '))
