@@ -3,3 +3,8 @@
 
 a = input('Enter your string: ')
 b = input('Enter the character: ')
+count = 0
+
+for i in a:
+    if i in b:
+        count = count + 1
