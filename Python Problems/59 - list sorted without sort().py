@@ -7,4 +7,8 @@ for i in range(0, len(L)-1):
     if L[i] >= L[i+1]:
         flag = 1
         break
-    
+
+if flag == 0:
+    print('Sorted')
+else:
+    print('Not sorted')
