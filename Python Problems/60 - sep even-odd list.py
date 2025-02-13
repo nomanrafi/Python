@@ -5,3 +5,11 @@ L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 L_even = []
 L_odd = []
 
+for i in L:
+    if i % 2 == 0:
+        L_even.append(i)
+    else:
+        L_odd.append(i)
+
+print('List of even values:', L_even)
+print('List of odd values:', L_odd)
