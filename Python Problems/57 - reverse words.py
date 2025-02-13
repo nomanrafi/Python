@@ -5,3 +5,7 @@
 a = input('Enter your string: ')
 x = a.split()
 rev = []
+for i in range(len(x)-1, -1, -1):
+    rev.append(x[i])
+y = ' '.join(rev)
+print(y)
