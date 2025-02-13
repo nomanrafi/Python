@@ -2,3 +2,7 @@
 
 a = input('Enter your string: ')
 count = 0
+
+for i in a:
+    if i == ' ':
+        count = count + 1
