@@ -3,3 +3,6 @@
 L = [1, 2, 3, 4, [5, 7, 8]]
 
 rev = []
+for i in L:
+    if type(i) == list:
+        rev.extend(i)
