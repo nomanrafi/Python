@@ -8,3 +8,4 @@ for i in L:
         rev.extend(i)
     else:
         rev.append(i)
+print(rev)
