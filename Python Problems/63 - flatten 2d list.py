@@ -6,3 +6,5 @@ rev = []
 for i in L:
     if type(i) == list:
         rev.extend(i)
+    else:
+        rev.append(i)
