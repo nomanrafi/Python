@@ -8,3 +8,4 @@ for i in L1:
     L.append(i)
 for j in L2:
     L.append(j)
+print(L)
