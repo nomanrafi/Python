@@ -8,3 +8,4 @@ matrix = [
 for i in matrix:
     max_value = i[0]
     for j in i:
+        if j > max_value:
