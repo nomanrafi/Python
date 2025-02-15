@@ -10,3 +10,4 @@ for i in matrix:
     for j in i:
         if j > max_value:
               max_value = j
+    print(max_value)
