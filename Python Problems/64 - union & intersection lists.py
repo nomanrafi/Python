@@ -6,3 +6,11 @@ L2 = [3, 4, 5, 6, 7]
 union = []
 intersection = []
 
+# Union
+for i in L1:
+    if i not in union:
+        union.append(i)
+for j in L2:
+    if j not in union:
+        union.append(j)
+        
