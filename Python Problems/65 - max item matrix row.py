@@ -5,3 +5,6 @@ matrix = [
     [4, 5, 6],
     [7, 8, 9]
 ]
+for i in matrix:
+    max_value = i[0]
+    for j in i:
