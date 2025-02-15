@@ -13,4 +13,7 @@ for i in L1:
 for j in L2:
     if j not in union:
         union.append(j)
-        
+# Intersection
+for i in L1:
+    if i in L2:
+        intersection.append(i)
