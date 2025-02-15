@@ -17,3 +17,7 @@ for j in L2:
 for i in L1:
     if i in L2:
         intersection.append(i)
+        
+
+print('Your union list:', union)
+print('Your intersection list:', intersection)
