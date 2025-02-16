@@ -1,2 +1,2 @@
-olshvv# Python
+lshvv# Python
 Basics of Python.
