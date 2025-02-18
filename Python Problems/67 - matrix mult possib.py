@@ -19,3 +19,8 @@ matrix_2 = [
     [7, 8]
 ]
 row_2 = 0
+
+for j in matrix_2:
+    row_2 = row_2 + 1
+    column_2 = len(j)
+    print('Matrix_2', j)
