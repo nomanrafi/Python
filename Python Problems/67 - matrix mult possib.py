@@ -11,3 +11,5 @@ for i in matrix_1:
     row_1 = row_1 + 1
     column_1 = len(i)
     print('Matrix_1', i)
+print('Row_1', row_1)
+print('Column_1', column_1)
