@@ -24,3 +24,5 @@ for j in matrix_2:
     row_2 = row_2 + 1
     column_2 = len(j)
     print('Matrix_2', j)
+print('Row_2', row_2)
+print('Column_2', column_2)
