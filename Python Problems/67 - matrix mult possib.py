@@ -28,3 +28,5 @@ print('Row_2', row_2)
 print('Column_2', column_2)
 if column_1 == row_2:
     print('Multiplication is possible')
+else:
+    print('Not possible')
