@@ -13,3 +13,8 @@ for i in matrix_1:
     print('Matrix_1', i)
 print('Row_1', row_1)
 print('Column_1', column_1)
+matrix_2 = [
+    [2, 3],
+    [4, 5],
+    [7, 8]
+]
