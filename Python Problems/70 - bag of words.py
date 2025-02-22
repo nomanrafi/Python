@@ -15,3 +15,13 @@ def bow(sentences):
             vector.append(sentence.count(word))
         vector2d.append(vector)
     return vector2d
+
+sentences = [
+    'Hello how are you',
+    'I was waiting for your call',
+    'where do you work',
+    'Lets meet someday',
+    'Hope you are fine'
+]
+
+bow(sentences)
