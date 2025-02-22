@@ -14,3 +14,4 @@ def bow(sentences):
         for word in vocab:
             vector.append(sentence.count(word))
         vector2d.append(vector)
+    return vector2d
