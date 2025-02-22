@@ -7,3 +7,10 @@ def bow(sentences):
     for i in sentences:
         vocab.extend(i.split()) 
     vocab = list(set(vocab))
+
+    vector2d = []
+    for sentence in sentences:
+        vector = []
+        for word in vocab:
+            vector.append(sentence.count(word))
+        vector2d.append(vector)
