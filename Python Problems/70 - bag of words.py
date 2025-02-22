@@ -2,3 +2,8 @@
 
 # https://en.wikipedia.org/wiki/Bag-of-words_model
 
+def bow(sentences):
+    vocab = []
+    for i in sentences:
+        vocab.extend(i.split()) 
+    vocab = list(set(vocab))
