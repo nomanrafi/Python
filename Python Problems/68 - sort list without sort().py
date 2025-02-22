@@ -8,3 +8,4 @@ for i in range(len(L)):
             temp = L[k]
             L[k] = L[k+1]
             L[k+1] = temp
+print(L)
