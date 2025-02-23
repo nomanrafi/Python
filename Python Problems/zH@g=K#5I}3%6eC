@@ -1,0 +1,1 @@
+# Write a program that accepts neighbors (a set of 2D coordinates) and a point (a single 2D coordinate) and tells the nearest neighbor (in terms of Euclidean distance).
