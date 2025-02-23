@@ -17,3 +17,4 @@ neighbours = [
     [90, 90]
 ]
 you = [-9, 7]
+nearest_neighbour(neighbours, you)
