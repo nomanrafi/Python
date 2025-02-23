@@ -2,3 +2,6 @@
 
 a = input('Enter your string: ')
 D = {}
+
+upper_count = 0
+lower_count = 0
