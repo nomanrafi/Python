@@ -11,3 +11,4 @@ for i in a:
         upper_count = upper_count + 1
     elif i.islower():
         lower_count = lower_count + 1
+D = {'Upper case:': upper_count, 'Lower_case': lower_count}
