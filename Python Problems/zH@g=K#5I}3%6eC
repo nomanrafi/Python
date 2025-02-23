@@ -9,3 +9,5 @@ def nearest_neighbour(neighbours, you):
     for i in neighbours:
         distances.append(calculate_distance(you, i))
     neighbour_index, distance = sorted(list(enumerate(distances)), key=lambda x: x[1])[0]
+    print('Nearest neighbour is:', neighbour_index, 'at the distance of:', distance)
+    
