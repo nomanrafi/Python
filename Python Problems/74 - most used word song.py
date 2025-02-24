@@ -57,3 +57,8 @@ for word in lyrics.split():
     else:
         D[word] = 1
 max_val = max(D.values())
+for i in D:
+    if D[i] == max_val:
+        print(i, max_val)
+        break
+    
