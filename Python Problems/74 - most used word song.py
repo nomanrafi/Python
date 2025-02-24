@@ -50,3 +50,4 @@ In the broad day, everyone hypnotizing, yeah
 I'm okay and I take the cake, yeah'''
 
 
+D = {}
