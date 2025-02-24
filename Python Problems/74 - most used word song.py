@@ -56,4 +56,4 @@ for word in lyrics.split():
         D[word] = D[word] + 1
     else:
         D[word] = 1
-        
+max_val = max(D.values())
