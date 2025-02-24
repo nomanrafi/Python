@@ -51,3 +51,9 @@ I'm okay and I take the cake, yeah'''
 
 
 D = {}
+for word in lyrics.split():
+    if word in D:
+        D[word] = D[word] + 1
+    else:
+        D[word] = 1
+        
