@@ -10,3 +10,15 @@ def convert(number):
         number = number // 10
         
     return result
+print(type(convert(23)))
+
+# number = 234
+# currect_num = 4
+# result = 4
+
+# number = 23
+# current_num = 3
+
+# result = 3 + 4 = 34
+
+# number = 2
