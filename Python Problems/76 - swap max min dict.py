@@ -15,3 +15,4 @@ for j in D:
         break
 D[i] = min_val
 D[j] = max_val
+print("Updated Dictionary:", D)
