@@ -15,3 +15,14 @@ def user_menu():
         login()
     else:
         print('Bye')
+def register():
+    name = input('Enter your name: ')
+    email = input('Enter your email id: ')
+    password = input('Enter your password: ')
+    
+    database[email] = [name, password]
+    
+    print('Registration successful')
+    print()
+    
+    user_menu()
