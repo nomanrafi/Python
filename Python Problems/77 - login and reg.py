@@ -26,3 +26,7 @@ def register():
     print()
     
     user_menu()
+def login():
+    email = input('Enter your email id: ')
+    password = input('Enter your password: ')
+    
