@@ -38,4 +38,7 @@ def login():
                 print('Welcome')
             else:
                 print('Incorrect credential')
-        
+            if flag == 0:
+                    ('Email not found')
+
+user_menu()
