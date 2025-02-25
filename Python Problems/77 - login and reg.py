@@ -29,4 +29,13 @@ def register():
 def login():
     email = input('Enter your email id: ')
     password = input('Enter your password: ')
+    flag = 0
     
+    for i in database:
+        if email == i:
+            flag = 1
+            if password == database[i][1]:
+                print('Welcome')
+            else:
+                print('Incorrect credential')
+        
