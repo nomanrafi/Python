@@ -13,3 +13,5 @@ for j in D:
     if D[j] == min_val:
         print("Minimum value:", D[j])
         break
+D[i] = min_val
+D[j] = max_val
