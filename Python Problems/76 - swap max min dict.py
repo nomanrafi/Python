@@ -9,4 +9,7 @@ for i in D:
     if D[i] == max_val:
         print("Maximum value:", D[i])
         break
-    
+for j in D:
+    if D[j] == min_val:
+        print("Minimum value:", D[j])
+        break
