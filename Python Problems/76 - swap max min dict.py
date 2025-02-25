@@ -5,3 +5,8 @@ D = {'a': 100, 'b': 200, 'c': 300, 'd': 400}
 
 max_val = max(D.values())
 min_val = min(D.values())
+for i in D:
+    if D[i] == max_val:
+        print("Maximum value:", D[i])
+        break
+    
