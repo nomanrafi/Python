@@ -1,2 +1,2 @@
-c# Python
+# Python
 Basics of Python.
