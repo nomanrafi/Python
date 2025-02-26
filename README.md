@@ -1,2 +1,2 @@
-vc# Python
+cvc# Python
 Basics of Python.
