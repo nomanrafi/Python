@@ -13,11 +13,11 @@ def convert(number):
 print(type(convert(23)))
 
 # number = 234
-# currect_num = 4
+# currect_num = 4 
 # result =  
   
 # number = 23 
-# current_num = 3
+# current_num = 3 
 
 # result = 3 + 4 = 34
 
