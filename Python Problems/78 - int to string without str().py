@@ -14,7 +14,7 @@ print(type(convert(23)))
 
 # number = 234 
 # currect_num = 4 
-# result = 
+# result =  
  
 # number = 23             
 # current_num = 3  
