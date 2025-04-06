@@ -12,7 +12,7 @@ def convert(number):
     return result
 print(type(convert(23)))
 
-# number = 234
+# number = 234 
 # currect_num = 4 
 # result =    
  
