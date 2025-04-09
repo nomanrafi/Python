@@ -10,7 +10,7 @@ def convert(number):
         number = number // 10
         
     return result
-print(type(convert(23)))
+
  
 # number = 234 
 # currect_num = 4 
