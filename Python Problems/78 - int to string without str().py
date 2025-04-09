@@ -4,7 +4,7 @@ def convert(number):
     digits = '0123456789'
     result = ''
     
-    while number != 0:
+   
   
 
 
