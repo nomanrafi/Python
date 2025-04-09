@@ -1,8 +1,10 @@
 # Write a program that can convert an integer to a string without using str().
 
 def convert(number):
+    digits = '0123456789'
+    result = ''
     
-   
+    while number != 0:
   
 
 
