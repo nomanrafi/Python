@@ -5,8 +5,8 @@ def convert(number):
     result = ''
     
     while number != 0:
-  
-
+        current_num = number % 10
+        result = digits[current_num] + result
 
         
 
